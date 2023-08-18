@@ -1,0 +1,43 @@
+.External{
+	border:3px solid blue;
+	color: red;
+	font-size: 50px;
+	background-color: lightskyblue;
+}
+p{
+	color: whitesmoke;
+
+}
+div{
+	height: 400px;
+	width: 400px;
+	background-color:darkred;
+}
+/**{
+	font-size: 50px;
+	color: darkred;
+	background-color: deepskyblue;
+	font-family: unset;
+}*/
+input[type="number"]{
+	color: deeppink;
+	font-size: 49px;
+	border: 5px solid lightskyblue;
+}
+input[type="text"]{
+	color: black;
+	font-size: 49px;
+}
+a[href]{
+	color: chocolate;
+	background-color: whitesmoke;
+}
+.body{
+	background-image:url(../imag/bg1.jpg);
+	background-size: 100%100%;
+	height: 1000px;
+	width: 100%;
+}
+h1{
+	color: white;
+}

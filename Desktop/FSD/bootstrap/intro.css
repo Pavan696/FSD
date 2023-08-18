@@ -1,0 +1,12 @@
+h3{
+	display: inline;
+}
+h6{
+	display: inline;
+	margin-left: 20px;
+}
+p{
+	color: grey;
+	font-family: fantasy;
+	margin-left: 20px;
+}

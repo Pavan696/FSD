@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		#a{
+			height: 200px;
+			width: 200px;
+			background-color: red;
+			position: static;
+			float: left;
+		}
+		#b{
+			height: 200px;
+			width: 200px;
+			background-color: green;
+			position: relative;
+			float: left;
+		}
+		#c{
+			height: 200px;
+			width: 200px;
+			background-color: yellow;
+			position: absolute;
+		}
+		#d{
+			height: 200px;
+			width: 200px;
+			background-color: blue;
+			position: fixed;
+			float: left;
+		}
+		#A{
+			height: 500px;
+			width: 30%;
+			outline: 3px solid red;
+			position: relative;
+			float: left;
+		}
+	</style>
+</head>
+<body>
+	<div>
+	<div id="a"></div>
+	<div id="b"></div>
+	<div id="A">
+		<div id="c"></div>
+	</div>
+	<div id="d"></div>
+</div>
+</body>
+</html>
